@@ -37,7 +37,7 @@ const getWeather=async (city)=>
         tempvalue.textContent=Math.round(feels_like-273);
         if(id<300 && id>200)
         {
-            tempicon.src="./thunderstorm.svg"
+            tempicon.src="https://github.com/deepinsight230/weather_app/blob/main/cloud.svg"
         }
        else  if(id<400 && id>300)
         {
@@ -45,19 +45,19 @@ const getWeather=async (city)=>
         }
        else if(id<600&& id>500)
         {
-            tempicon.src="./rain.svg"
+            tempicon.src="https://github.com/deepinsight230/weather_app/blob/main/rain.svg"
         }
        else  if(id<700 && id>600)
         {
-            tempicon.src="./snow.svg"
+            tempicon.src="https://github.com/deepinsight230/weather_app/blob/main/snow.svg"
         }
        else  if(id<800 && id>700)
         {
-            tempicon.src="./clouds.svg"
+            tempicon.src="https://github.com/deepinsight230/weather_app/blob/main/cloud.svg"
         }
          else if(id==800)
         {
-            tempicon.src="./clouds-and-sun.svg"
+            tempicon.src="https://github.com/deepinsight230/weather_app/blob/main/clouds-and-sun.svg"
         }
 
 
